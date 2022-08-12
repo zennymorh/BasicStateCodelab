@@ -52,7 +52,7 @@ fun WellnessTaskItem(taskName: String, onClose: () -> Unit, modifier: Modifier =
         taskName = taskName,
         checked = checkedState,
         onCheckedChange = { newValue -> checkedState = newValue },
-        onClose = onClose, // we will implement this later!
+        onClose = onClose,
         modifier = modifier,
     )
 }
